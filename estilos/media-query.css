@@ -8,7 +8,7 @@
     }
 
     #container {
-        width: 79.7vw;
+        width: 79vw;
         height: 280px;
     }
 
@@ -21,6 +21,7 @@
         width: 24vw;
         height: 280px;
         border-radius: 20px 0px 0px 20px;
+        margin-left: -2px;
     }
 
     form {
@@ -59,9 +60,10 @@
     img {
         position: relative;
         left: 50%;
-        width: 475px;
+        width: 476px;
         height: 350px;
         border-radius: 0px 20px 20px 0px;
+        margin-right: 1px;
     }
 
     form {
