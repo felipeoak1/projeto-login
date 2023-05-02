@@ -26,13 +26,14 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+    
     background-color: white;
     width: 250px;
     height: 514px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    
+    transform: translate(-50%, -50%);
 }
 
 legend {
@@ -54,7 +55,6 @@ label {
     color: white;
     border-radius: 10px;
     border: 1px solid var(--lilas);
-
 }
 
 #icons1 {
@@ -65,19 +65,18 @@ label {
     margin-left: 10px;
 }
 
-
 input {
     height: 40px;
-    width: 190px;
     background-color: #94CFCD;
     border: 1px solid var(--lilas);
     border-radius: 10px;
     font-size: 1em;
-    text-indent: 5px;
 }
 
-input:focus {
+input:focus-within {
     background-color: white;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.521);
 }
 
 .center {
@@ -112,13 +111,10 @@ input[type=url]:hover {
     background-color: #6CD3CF;
 }
 
-img {
+.imagem {
+    background: var(--lilas) url("../imagens/pexels-sagui-andrea-618833.jpg") no-repeat center right/cover;
     width: 250px;
     height: 210px;
     border-radius: 15px 15px 0px 0px;
     margin-top: -3px;
-}
-
-fieldset {
-    border: 0px;
 }
